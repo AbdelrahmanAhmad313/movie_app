@@ -51,7 +51,6 @@ class MainActivity : AppCompatActivity() {
                     showMovies(movies)
                     b.progress.isVisible=false
 
-
                 }
 
                 override fun onFailure(call: Call<Cinema>, t: Throwable) {

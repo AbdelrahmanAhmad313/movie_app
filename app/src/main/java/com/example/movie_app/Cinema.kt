@@ -11,7 +11,12 @@ data class Results (
 //    val background:String,
     @SerializedName("poster_path")
     val poster:String,
-    val id:String
+    val id:String,
+    @SerializedName("backdrop_path")
+    val background:String,
+    val title:String,
+    @SerializedName("release_date")
+    val date:String
 //    @SerializedName("release_date")
 //    val Date:String,
 //    @SerializedName("vote_average")
