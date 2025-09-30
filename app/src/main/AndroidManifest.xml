@@ -15,6 +15,9 @@
         android:theme="@style/Theme.Movie_app"
         tools:targetApi="31">
         <activity
+            android:name=".StartFragment"
+            android:exported="false" />
+        <activity
             android:name=".DetailsActivity"
             android:exported="false" />
         <activity
